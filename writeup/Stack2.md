@@ -2,10 +2,10 @@
 ## Overview
     The variable gets its value from the environment variable GREENIE instead
     of a command line parameter and buffer[64] copy the value of variable.
-    Since the esp(current stack pointer) grows upward when allocating memory
+    The esp(current stack pointer) grows upward when allocating memory
     and the higher the esp goes, it points to smaller address number.
-    We should first modify the environment variable to a very large value 
-    with 0x0d0a0d0a as postfix to overwrite buffer[64] and modified.
+    Thus, we should first modify the environment variable to a very large 
+    value with 0x0d0a0d0a as postfix to overwrite buffer[64] and modified.
 
 ## Process
     $ export GREENIE=`python -c "print 'A'*64"`

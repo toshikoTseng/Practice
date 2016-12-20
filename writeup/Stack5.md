@@ -70,7 +70,7 @@
             0x0804844a  __i686.get_pc_thunk.bx
             0x08048450  __do_global_ctors_aux
             0x0804847c  _fini
-    You can see the gets function is stored at 0x080482e8.
+        You can see the gets function is stored at 0x080482e8.
     
     3. Find bss_addr.
         Use IDA pro to find the last line of the binary file stored.
